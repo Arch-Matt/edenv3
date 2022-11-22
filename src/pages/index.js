@@ -415,11 +415,11 @@ $("video").trigger("play");
 });
 
 
-window.onscroll = function(){
-  var scrollTop = window.pageYOffset;
-  if(scrollTop >= 1){
-    $(".navbar").addClass("bg");
-  }else{
-    $(".navbar").removeClass("bg");
-  }
-};
+// window.onscroll = function(){
+//   var scrollTop = window.pageYOffset;
+//   if(scrollTop >= 1){
+//     $(".navbar").addClass("bg");
+//   }else{
+//     $(".navbar").removeClass("bg");
+//   }
+// };
