@@ -5,7 +5,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 // import slickScript from '../js/slick.js';
 import $ from 'jquery';
-// import themeScript from '../js/theme.js';
 import styles from './index.module.css';
 
 // import HomepageFeatures from '../components/HomepageFeatures';
@@ -14,7 +13,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className="header-home">
-        <video muted="muted" loop>
+        <video muted="muted" loop id="mainvid">
             <source src="vid/eden-3.mp4"></source>
           </video>
         <div className="header-content">
@@ -290,7 +289,6 @@ function HomepageCTA() {
 }
 
 
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -310,6 +308,9 @@ export default function Home() {
     </Layout>
   );
 }
+
+alert("test");
+
 
 // $(function(){
 //   $(".home-slider").slick({
