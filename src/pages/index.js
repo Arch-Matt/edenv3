@@ -7,6 +7,7 @@ import slickScript from '../js/slick.js';
 import $ from 'jquery';
 // import themeScript from '../js/theme.js';
 import styles from './index.module.css';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 // import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
