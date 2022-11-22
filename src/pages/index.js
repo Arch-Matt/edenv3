@@ -4,8 +4,13 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 // import slickScript from '../js/slick.js';
-import $ from 'jquery';
+// import $ from 'jquery';
 import styles from './index.module.css';
+import Slider from "react-slick";
+import SliderLTR from '../components/homeSlider.js';
+import SliderRTL from '../components/homeSliderRTL.js';
+import SliderTwitter from '../components/sliderTwitter.js';
+
 
 // import HomepageFeatures from '../components/HomepageFeatures';
 
@@ -86,65 +91,7 @@ function HomepageNumbers() {
     </div>
   );
 }
-
-
-function HomepageLogoSliders() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <div className="module-logosliders">
-      <div className="m-container-1400 text-center">
-        <h2>Maximising profits for the best in Web3</h2>
-        <div className="sliderholder">
-          <div className="home-slider">
-            <div className="slide">
-              <img src="img/logo-binance.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-bitcoin_suisse.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-bitstamp.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-chorus.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-coinbase.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-huobi.svg" alt=""/>
-            </div>
-          </div>
-        </div>
-        <div className="sliderholder" dir="rtl">
-          <div className="home-slider-rtl" >
-            <div className="slide">
-              <img src="img/logo-staked.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-rocket.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-solana.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-s.svg" alt=""/>
-            </div>
-            <div className="slide">
-              <img src="img/logo-kraken.svg" alt=""/>
-            </div>
-            <div className="slide">
-        
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-
-
+ 
 function HomepageQuote() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -171,110 +118,6 @@ function HomepageQuote() {
   );
 }
 
-function HomepageTweets() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <div className="module-logosliders">
-      <div className="m-container-1400 text-center">
-        <h2>Latest news from our world</h2>
-        <div className="twitter-slider">
-          <div className="slider-twitter" >
-
-            <div className="tweet-slide">
-              <div class="tweet-slide-box">
-                <div class="tweet-author">
-                  <img src="img/twitter-pic.png" alt="" />
-                  <span class="tweet-author-name">John Smith</span>
-                  <span class="tweet-author-handle">@john_smith</span>
-                </div>
-                <div class="tweet">
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.</p>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="tweet-slide">
-              <div class="tweet-slide-box">
-                <div class="tweet-author">
-                  <img src="img/twitter-pic.png" alt="" />
-                  <span class="tweet-author-name">John Smith</span>
-                  <span class="tweet-author-handle">@john_smith</span>
-                </div>
-                <div class="tweet">
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.</p>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="tweet-slide">
-              <div class="tweet-slide-box">
-                <div class="tweet-author">
-                  <img src="img/twitter-pic.png" alt="" />
-                  <span class="tweet-author-name">John Smith</span>
-                  <span class="tweet-author-handle">@john_smith</span>
-                </div>
-                <div class="tweet">
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.</p>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="tweet-slide">
-              <div class="tweet-slide-box">
-                <div class="tweet-author">
-                  <img src="img/twitter-pic.png" alt="" />
-                  <span class="tweet-author-name">John Smith</span>
-                  <span class="tweet-author-handle">@john_smith</span>
-                </div>
-                <div class="tweet">
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tweet-slide">
-              <div class="tweet-slide-box">
-                <div class="tweet-author">
-                  <img src="img/twitter-pic.png" alt="" />
-                  <span class="tweet-author-name">John Smith</span>
-                  <span class="tweet-author-handle">@john_smith</span>
-                </div>
-                <div class="tweet">
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tweet-slide">
-              <div class="tweet-slide-box">
-                <div class="tweet-author">
-                  <img src="img/twitter-pic.png" alt="" />
-                  <span class="tweet-author-name">John Smith</span>
-                  <span class="tweet-author-handle">@john_smith</span>
-                </div>
-                <div class="tweet">
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.</p>
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 
 function HomepageCTA() {
   const {siteConfig} = useDocusaurusContext();
@@ -289,6 +132,7 @@ function HomepageCTA() {
 }
 
 
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -299,17 +143,27 @@ export default function Home() {
       <main>
         
         <HomepageNumbers />
-        <HomepageLogoSliders />
+        <div className="module-logosliders">
+        <div className="m-container-1400 text-center">
+            <h2>Maximising profits for the best in Web3</h2>
+            <SliderLTR />
+            <SliderRTL />
+        </div>
+        </div>
+      
         <HomepageQuote />
-        <HomepageTweets />
+        <SliderTwitter />
         <HomepageCTA />
+       
       
       </main>
     </Layout>
   );
 }
 
-alert("test");
+
+
+
 
 
 // $(function(){
@@ -379,37 +233,6 @@ alert("test");
 //     ]
 //   });
 
-//   $(".slider-twitter").slick({
-//     dots:true,
-//     arrows:false,
-//     autoplay:false,
-//     autoplaySpeed:0,
-//     speed:300,
-//     easing:'linear',
-//     pauseOnHover:true,
-//     slidesToShow:5,
-//     cssEase:'linear',
-//     responsive: [
-//       {
-//         breakpoint: 990,
-//         settings: {
-//           slidesToShow: 4
-//         }
-//       },
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           slidesToShow: 3
-//         }
-//       },
-//       {
-//         breakpoint: 560,
-//         settings: {
-//           slidesToShow: 2
-//         }
-//       }
-//     ]
-//   });
 
 // $("video").trigger("play");
 
