@@ -134,7 +134,8 @@
 	.m-xl-1,.m-xl-2,.m-xl-3,.m-xl-4,.m-xl-5,.m-xl-6,.m-xl-7,.m-xl-8,.m-xl-9,.m-xl-10,.m-xl-11,.m-xl-12,
 	.m-lg-1,.m-lg-2,.m-lg-3,.m-lg-4,.m-lg-5,.m-lg-6,.m-lg-7,.m-lg-8,.m-lg-9,.m-lg-10,.m-lg-11,.m-lg-12,
 	.m-md-1,.m-md-2,.m-md-3,.m-md-4,.m-md-5,.m-md-6,.m-md-7,.m-md-8,.m-md-9,.m-md-10,.m-md-11,.m-md-12,
-	.m-sm-1,.m-sm-2,.m-sm-3,.m-sm-4,.m-sm-5,.m-sm-6,.m-sm-7,.m-sm-8,.m-sm-9,.m-sm-10,.m-sm-11,.m-sm-12{ width:auto; }
+	.m-sm-1,.m-sm-2,.m-sm-3,.m-sm-4,.m-sm-5,.m-sm-6,.m-sm-7,.m-sm-8,.m-sm-9,.m-sm-10,.m-sm-11,.m-sm-12,
+	.m-xs-1,.m-xs-2,.m-xs-3,.m-xs-4,.m-xs-5,.m-xs-6,.m-xs-7,.m-xs-8,.m-xs-9,.m-xs-10,.m-xs-11,.m-xs-12 { width:auto !important; }
 
 	.m-xl-0  { display:none; }
 	.m-xl-1  { grid-column-end: span 1;  }
