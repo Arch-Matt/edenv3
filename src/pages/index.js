@@ -3,22 +3,16 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-// import slickScript from '../js/slick.js';
-// import $ from 'jquery';
 import styles from './index.module.css';
 import Slider from "react-slick";
 import SliderLTR from '../components/homeSlider.js';
 import SliderRTL from '../components/homeSliderRTL.js';
 import SliderTwitter from '../components/sliderTwitter.js';
 
-
-// import HomepageFeatures from '../components/HomepageFeatures';
-
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className="header-home">
-        <video muted="muted" loop id="mainvid">
+        <video muted="muted" autoPlay loop id="mainvid">
             <source src="vid/eden-3.mp4"></source>
           </video>
         <div className="header-content">
@@ -65,7 +59,6 @@ function HomepageHeader() {
 
 
 function HomepageNumbers() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-numbers">
       <div className="m-container-1400">
@@ -93,7 +86,6 @@ function HomepageNumbers() {
 }
  
 function HomepageQuote() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-quote">
       <div className="m-container-1400">
@@ -120,7 +112,6 @@ function HomepageQuote() {
 
 
 function HomepageCTA() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-cta">
       <div className="m-container-1400 text-center">
@@ -162,82 +153,8 @@ export default function Home() {
 }
 
 
-
-
-
-
-// $(function(){
-//   $(".home-slider").slick({
-//     dots:false,
-//     arrows:false,
-//     autoplay:true,
-//     autoplaySpeed:0,
-//     speed:10000,
-//     easing:'linear',
-//     pauseOnHover:false,
-//     slidesToShow:5,
-//     cssEase:'linear',
-//     centerMode:true,
-//     centerPadding:'30px',
-//     responsive: [
-//       {
-//         breakpoint: 990,
-//         settings: {
-//           slidesToShow: 4
-//         }
-//       },
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           slidesToShow: 3
-//         }
-//       },
-//       {
-//         breakpoint: 560,
-//         settings: {
-//           slidesToShow: 2
-//         }
-//       }
-//     ]
-//   });
-//   $(".home-slider-rtl").slick({
-//     dots:false,
-//     arrows:false,
-//     autoplay:true,
-//     autoplaySpeed:0,
-//     speed:10000,
-//     easing:'linear',
-//     pauseOnHover:false,
-//     slidesToShow:5,
-//     rtl:true,
-//     cssEase:'linear',
-//     responsive: [
-//       {
-//         breakpoint: 990,
-//         settings: {
-//           slidesToShow: 4
-//         }
-//       },
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           slidesToShow: 3
-//         }
-//       },
-//       {
-//         breakpoint: 560,
-//         settings: {
-//           slidesToShow: 2
-//         }
-//       }
-//     ]
-//   });
-
-
 // $("video").trigger("play");
 
- 
-// });
 
 
 // window.onscroll = function(){
