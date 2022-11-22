@@ -54,7 +54,7 @@ function HomepageHeader() {
               <div className="m-grid m-grid-gap-30">
                 <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
                   <img className="sub-logo" src="img/eden-logo-blue-rpc.svg" alt=""/>
-                  <img className="available-on" src="img/available-on-eth.svg" alt="" />
+                  <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
                   <h2>MEV Protection for Traders</h2>
                   <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                   <div className="lower-links">
@@ -64,7 +64,7 @@ function HomepageHeader() {
                 </div>
                 <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
                   <img className="sub-logo" src="img/eden-logo-blue-relay.svg" alt=""/>
-                  <img className="available-on" src="img/available-on-eth.svg" alt="" />
+                  <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
                   <h2>MEV Extraction for Web3 Infrastructure</h2>
                   <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                   <div className="lower-links">
