@@ -36,7 +36,7 @@ function ScrollTester() {
 }
 
 function HomepageHeader() {
- 
+  const {siteConfig} = useDocusaurusContext();
   return (
     <header className="header-home">
         <video muted="muted" autoPlay loop id="mainvid">
@@ -86,6 +86,7 @@ function HomepageHeader() {
 
 
 function HomepageNumbers() {
+  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-numbers">
       <div className="m-container-1400">
@@ -113,6 +114,7 @@ function HomepageNumbers() {
 }
  
 function HomepageQuote() {
+  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-quote">
       <div className="m-container-1400">
@@ -139,6 +141,7 @@ function HomepageQuote() {
 
 
 function HomepageCTA() {
+  const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-cta">
       <div className="m-container-1400 text-center">
