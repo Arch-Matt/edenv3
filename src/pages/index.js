@@ -8,8 +8,35 @@ import Slider from "react-slick";
 import SliderLTR from '../components/homeSlider.js';
 import SliderRTL from '../components/homeSliderRTL.js';
 import SliderTwitter from '../components/sliderTwitter.js';
+import { useEffect } from 'react';
+import { useState } from 'react';
+
+
+function ScrollTester() {
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+     //  setScroll(window.scrollY > 50);
+     if(window.scrollY == 0){
+      const boxes = document.getElementsByClassName('navbar');
+      for (const box of boxes) {
+        box.classList.remove('bg');
+      }
+     }else{
+      const boxes = document.getElementsByClassName('navbar');
+      for (const box of boxes) {
+        box.classList.add('bg');
+      }
+     }
+    });
+  }, []);
+  return(
+    <div class="scrollchecker">scroll checker</div>
+  );
+}
 
 function HomepageHeader() {
+ 
   return (
     <header className="header-home">
         <video muted="muted" autoPlay loop id="mainvid">
@@ -122,8 +149,6 @@ function HomepageCTA() {
   );
 }
 
-
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -145,15 +170,13 @@ export default function Home() {
         <HomepageQuote />
         <SliderTwitter />
         <HomepageCTA />
-       
+        <ScrollTester />
       
       </main>
     </Layout>
   );
 }
 
-
-// $("video").trigger("play");
 
 
 
@@ -164,4 +187,4 @@ export default function Home() {
 //   }else{
 //     $(".navbar").removeClass("bg");
 //   }
-// };
+// }; 
