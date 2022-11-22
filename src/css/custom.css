@@ -68,7 +68,7 @@ a.button.blue { background:var(--blue);color:#fff; }
 a.button.blue:hover { background:#fff;color:var(--blue); }
 a.button.large { font-size:1.4rem; }
 
-a.docs { display:inline-block;width:59px;height:20px;background:url("/static/img/docs_outlined.svg");position:absolute;bottom:40px;right:60px; }
+a.docs { display:inline-block;width:59px;height:20px;background:url("/static/img/docs_outlined.svg") no-repeat;background-size:contain;position:absolute;bottom:40px;right:60px; }
 
 .lower-links { position:absolute; bottom:0;left:0;width:100%;padding:30px 45px 30px 45px; }
 
