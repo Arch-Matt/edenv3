@@ -15,22 +15,22 @@ function HomepageHeader() {
   return (
     <header className="header-home">
         <video muted="muted" loop>
-            <source src="/static/vid/eden-3.mp4"></source>
+            <source src="vid/eden-3.mp4"></source>
           </video>
         <div className="header-content">
           <div className="m-container-1400">
             <h1>Multichain Infrastructure for <span className="text-green">Maximal Value</span></h1>
             <div className="logo-list">
               <div><img src="img/logo-jumpcap.svg" alt=""/></div>
-              <div><img src="static/img/logo-multicoin.svg" alt=""/></div>
-              <div><img src="static/img/logo-gsr.svg" alt=""/></div>
-              <div><img src="static/img/logo-wintermute.svg" alt=""/></div>
+              <div><img src="img/logo-multicoin.svg" alt=""/></div>
+              <div><img src="img/logo-gsr.svg" alt=""/></div>
+              <div><img src="img/logo-wintermute.svg" alt=""/></div>
             </div>
             <div className="white-boxes">
               <div className="m-grid m-grid-gap-30">
                 <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
-                  <img className="sub-logo" src="static/img/eden-logo-blue-rpc.svg" alt=""/>
-                  <img className="available-on" src="static/img/available-on-eth.svg" alt="" />
+                  <img className="sub-logo" src="img/eden-logo-blue-rpc.svg" alt=""/>
+                  <img className="available-on" src="img/available-on-eth.svg" alt="" />
                   <h2>MEV Protection for Traders</h2>
                   <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                   <div className="lower-links">
@@ -39,8 +39,8 @@ function HomepageHeader() {
                   </div>
                 </div>
                 <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
-                  <img className="sub-logo" src="static/img/eden-logo-blue-relay.svg" alt=""/>
-                  <img className="available-on" src="static/img/available-on-eth.svg" alt="" />
+                  <img className="sub-logo" src="img/eden-logo-blue-relay.svg" alt=""/>
+                  <img className="available-on" src="img/available-on-eth.svg" alt="" />
                   <h2>MEV Extraction for Web3 Infrastructure</h2>
                   <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                   <div className="lower-links">
@@ -98,41 +98,41 @@ function HomepageLogoSliders() {
         <div className="sliderholder">
           <div className="home-slider">
             <div className="slide">
-              <img src="static/img/logo-binance.svg" alt=""/>
+              <img src="img/logo-binance.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-bitcoin_suisse.svg" alt=""/>
+              <img src="img/logo-bitcoin_suisse.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-bitstamp.svg" alt=""/>
+              <img src="img/logo-bitstamp.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-chorus.svg" alt=""/>
+              <img src="img/logo-chorus.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-coinbase.svg" alt=""/>
+              <img src="img/logo-coinbase.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-huobi.svg" alt=""/>
+              <img src="img/logo-huobi.svg" alt=""/>
             </div>
           </div>
         </div>
         <div className="sliderholder" dir="rtl">
           <div className="home-slider-rtl" >
             <div className="slide">
-              <img src="static/img/logo-staked.svg" alt=""/>
+              <img src="img/logo-staked.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-rocket.svg" alt=""/>
+              <img src="img/logo-rocket.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-solana.svg" alt=""/>
+              <img src="img/logo-solana.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-s.svg" alt=""/>
+              <img src="img/logo-s.svg" alt=""/>
             </div>
             <div className="slide">
-              <img src="static/img/logo-kraken.svg" alt=""/>
+              <img src="img/logo-kraken.svg" alt=""/>
             </div>
             <div className="slide">
         
@@ -156,7 +156,7 @@ function HomepageQuote() {
             <div className="text-center vertical-align">
               <div className="vertical-outer">
                 <div className="vertical-inner">
-                <img className="quote-image" src="static/img/near-protocol-near-logo.svg" alt="" />
+                <img className="quote-image" src="img/near-protocol-near-logo.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -184,7 +184,7 @@ function HomepageTweets() {
             <div className="tweet-slide">
               <div class="tweet-slide-box">
                 <div class="tweet-author">
-                  <img src="static/img/twitter-pic.png" alt="" />
+                  <img src="img/twitter-pic.png" alt="" />
                   <span class="tweet-author-name">John Smith</span>
                   <span class="tweet-author-handle">@john_smith</span>
                 </div>
@@ -198,7 +198,7 @@ function HomepageTweets() {
             <div className="tweet-slide">
               <div class="tweet-slide-box">
                 <div class="tweet-author">
-                  <img src="static/img/twitter-pic.png" alt="" />
+                  <img src="img/twitter-pic.png" alt="" />
                   <span class="tweet-author-name">John Smith</span>
                   <span class="tweet-author-handle">@john_smith</span>
                 </div>
@@ -212,7 +212,7 @@ function HomepageTweets() {
             <div className="tweet-slide">
               <div class="tweet-slide-box">
                 <div class="tweet-author">
-                  <img src="static/img/twitter-pic.png" alt="" />
+                  <img src="img/twitter-pic.png" alt="" />
                   <span class="tweet-author-name">John Smith</span>
                   <span class="tweet-author-handle">@john_smith</span>
                 </div>
@@ -226,7 +226,7 @@ function HomepageTweets() {
             <div className="tweet-slide">
               <div class="tweet-slide-box">
                 <div class="tweet-author">
-                  <img src="static/img/twitter-pic.png" alt="" />
+                  <img src="img/twitter-pic.png" alt="" />
                   <span class="tweet-author-name">John Smith</span>
                   <span class="tweet-author-handle">@john_smith</span>
                 </div>
@@ -239,7 +239,7 @@ function HomepageTweets() {
             <div className="tweet-slide">
               <div class="tweet-slide-box">
                 <div class="tweet-author">
-                  <img src="static/img/twitter-pic.png" alt="" />
+                  <img src="img/twitter-pic.png" alt="" />
                   <span class="tweet-author-name">John Smith</span>
                   <span class="tweet-author-handle">@john_smith</span>
                 </div>
@@ -252,7 +252,7 @@ function HomepageTweets() {
             <div className="tweet-slide">
               <div class="tweet-slide-box">
                 <div class="tweet-author">
-                  <img src="static/img/twitter-pic.png" alt="" />
+                  <img src="img/twitter-pic.png" alt="" />
                   <span class="tweet-author-name">John Smith</span>
                   <span class="tweet-author-handle">@john_smith</span>
                 </div>
