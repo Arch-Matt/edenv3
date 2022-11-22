@@ -16,7 +16,6 @@ function ScrollTester() {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-     //  setScroll(window.scrollY > 50);
      if(window.scrollY == 0){
       const boxes = document.getElementsByClassName('navbar');
       for (const box of boxes) {
