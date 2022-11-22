@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'EDEN Network',
   tagline: 'EDEN',
-  url: 'https://Arch-Matt.github.io',
-  baseUrl: '/edenv3/',
+  url: 'https://cosmic-bublanina-39bfbc.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
