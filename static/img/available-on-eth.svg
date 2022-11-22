@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.758" height="26.5" viewBox="0 0 114.758 26.5">
+  <g id="Group_68" data-name="Group 68" transform="translate(-885.242 -517)">
+    <g id="Layer_x0020_1" transform="translate(983.728 517)">
+      <g id="_1421394342400">
+        <g id="Group_64" data-name="Group 64">
+          <path id="Path_123" data-name="Path 123" d="M383.678,0,383.5.6V18.126l.178.177,8.133-4.808Z" transform="translate(-375.544)" fill="#343434"/>
+          <path id="Path_124" data-name="Path 124" d="M8.134,0,0,13.5,8.134,18.3V0Z" fill="#8c8c8c"/>
+          <path id="Path_125" data-name="Path 125" d="M387.34,729.7l-.1.122v6.242l.1.292,8.138-11.462Z" transform="translate(-379.206 -709.852)" fill="#3c3c3b"/>
+          <path id="Path_126" data-name="Path 126" d="M8.134,736.352V729.7L0,724.89Z" transform="translate(0 -709.852)" fill="#8c8c8c"/>
+          <path id="Path_127" data-name="Path 127" d="M392.07,480.835l8.134-4.808-8.134-3.7Z" transform="translate(-383.936 -462.531)" fill="#141414"/>
+          <path id="Path_128" data-name="Path 128" d="M0,476.027l8.134,4.808v-8.5Z" transform="translate(0 -462.531)" fill="#393939"/>
+        </g>
+      </g>
+    </g>
+    <text id="Available_on" data-name="Available on" transform="translate(885.242 535.75)" fill="#171c47" font-size="16" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="0">Available on</tspan></text>
+  </g>
+</svg>

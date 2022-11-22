@@ -1,0 +1,147 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #CAFF00;
+  --ifm-color-primary-dark: #CAFF00;
+  --ifm-color-primary-darker: #CAFF00;
+  --ifm-color-primary-darkest: #CAFF00;
+  --ifm-color-primary-light: #CAFF00;
+  --ifm-color-primary-lighter: #CAFF00;
+  --ifm-color-primary-lightest: #CAFF00;
+  --ifm-code-font-size: 95%;
+  --ifm-menu-color: #fff;
+
+  --blue:#171C47;
+  --darkgreen:#0CD479;
+  --lightgreen:#CAFF00;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;500;600&display=swap');
+
+html { background:var(--blue); }
+* { font-family: 'Readex Pro', sans-serif;color:#fff; }
+
+.text-white { color:#fff; }
+.text-green { color:var(--lightgreen); }
+.text-blue { color:var(--blue)}
+
+h2 { font-size:2.2rem;}
+code { color:var(--blue); }
+
+/* Nav */
+.navbar { background:transparent;transition:background 0.3s ease-in-out; }
+.navbar.bg { background:var(--blue); }
+.navbar__inner { max-width:1400px;margin:0 auto; }
+.navbar__link svg { display:none; }
+.navbar__link { color:#fff; }
+.navbar__items--right .navbar__link, .navbar-sidebar a[target="_blank"] { border-radius:5px;font-size:0.9rem;padding:3px 15px;background: var(--lightgreen);background: linear-gradient(90deg, var(--darkgreen) 0%, var(--lightgreen) 100%);color:var(--blue);border:none; }
+.navbar__items--right .navbar__link:hover, .navbar-sidebar a[target="_blank"]:hover { background:#fff; }
+.navbar__items--right .navbar__link span { color:var(--blue); }
+.navbar-sidebar { background:var(--blue); }
+.navbar-sidebar a[target="_blank"] { width:auto;display:inline-block;margin-left:15px;font-size:1rem;margin-top:15px; }
+.navbar-sidebar a[target="_blank"] span { color:var(--blue); }
+.navbar-sidebar a[target="_blank"] svg { display:none; }
+
+/* Header */
+video { max-width:1920px;width:100%;height:100%;object-fit:cover;object-position:center bottom;position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:1; }
+.header-home { position:relative;margin-top:-60px; }
+.header-content { position:relative;z-index:3;padding-top:90px;text-align:center; }
+.header-content h1 { font-size:5.5rem;display:block;width:100%;max-width:1200px;margin:15px auto; }
+.logo-list { display:inline-table;table-layout:fixed;width:100%;margin-top:30px; }
+.logo-list > div { display:table-cell;vertical-align:middle; }
+.logo-list > div > img { width:100%;max-height:80px; }
+.header-home .white-box { background:#fff;color:var(--blue);text-align:left;padding:45px 45px 90px;border-radius:6px;position:relative;box-shadow:0px 0px 5px 5px rgba(0,0,0,0.1);z-index:10; }
+.white-box h2 { font-size:2rem; }
+.white-box p { color:var(--blue); }
+.available-on { position:absolute;top:45px;right:45px; }
+.sub-logo { margin-bottom:15px;}
+
+main { margin-top:-30px;position:relative;z-index:2;padding-top:60px }
+a.button { background: var(--lightgreen);background: linear-gradient(90deg, var(--darkgreen) 0%, var(--lightgreen) 100%);color:var(--blue);border:none;font-size:1.2rem; }
+a.button:hover { color:#fff;background:var(--blue); }
+a.button.blue { background:var(--blue);color:#fff; }
+a.button.blue:hover { background:#fff;color:var(--blue); }
+a.button.large { font-size:1.4rem; }
+
+a.docs { display:inline-block;width:59px;height:20px;background:url("/static/img/docs.svg");position:absolute;bottom:40px;right:60px; }
+
+.lower-links { position:absolute; bottom:0;left:0;width:100%;padding:30px 45px 30px 45px; }
+
+
+.footer { background:var(--blue); }
+.footer a:hover { text-decoration:none; }
+.footer__copyright { opacity:0.4;font-weight:300;font-size:0.8rem; }
+
+/* Numbers Grid */
+.module-numbers { background:var(--lightgreen);background:radial-gradient(circle, var(--lightgreen) 50%, var(--darkgreen) 100%);padding:90px 15px 30px;margin-top:-75px; }
+.numbers-grid span { color:var(--blue); }
+.numbers-grid .number-grid-col { border-right:1px solid var(--blue); }
+.numbers-grid .number-grid-col:last-child { border:none;}
+.number-large, .number-label { display:block;text-align: center;; }
+.number-labe { margin-top:15px;margin-bottom:-10px; }
+.number-large { font-size:3.2rem;line-height:3rem; }
+.number-eth { font-size:1.5rem; }
+
+
+/* Homepage Sliders */
+.module-logosliders { padding:30px 15px;background:#fff url("/static/img/bg-eden-white.svg") no-repeat center center;background-size:auto 110%; }
+.module-logosliders * { color:var(--blue); }
+.sliderholder { display:block;margin:30px 0;}
+.sliderholder .slick-slide > div { padding:10px; }
+.sliderholder .slide { padding:30px;background:#fff;box-shadow:0px 0px 3px 3px rgba(0,0,0,0.05);height:120px; }
+.sliderholder .slide img { width:100%;height:100%;object-fit: contain; }
+
+
+/* Quote */
+.module-quote { padding:60px 15px;}
+.quote { font-size:2rem;line-height:2.8rem;}
+.quote-by  { color:var(--lightgreen); }
+.quote-image { max-width:100%; }
+
+/* CTA */
+.module-cta { padding:45px 15px;background:var(--lightgreen);background:radial-gradient(circle, var(--lightgreen) 50%, var(--darkgreen) 100%); }
+.module-cta h2.large { margin-bottom:30px;}
+
+
+/* Twitter */
+.tweet-slide { padding:10px;}
+.tweet-slide-box { background:#fff url("/static/img/icon-twitter.svg") no-repeat right bottom;background-position:calc(100% - 15px) calc(100% - 15px);padding:15px 15px 45px;text-align:left;box-shadow:0px 0px 3px 3px rgba(0,0,0,0.1); }
+.tweet-author { display:block;overflow: hidden;white-space: nowrap;padding-left:70px;padding-top:5px;position:relative;height:60px; }
+.tweet-author img { position:absolute;top:0;left:0;width:70px;height:100%;object-fit:contain;object-position: left center; }
+.tweet-author-name { display:block;padding-left:5px; }
+.tweet-author-handle { padding-left:5px;display:block;font-size:0.8rem; }
+.tweet { font-size:0.8rem;display:block;margin-top:15px; }
+.slick-dots li button:before { font-size:15px;color:var(--darkgreen); }
+.slick-dots li.slick-active button:before { color:var(--blue); }
+
+@media(max-width:996px){
+  .row .col.col.col { width:50%;--ifm-col-width:50%;text-align:center; }
+}
+
+@media(max-width:991px){
+  .numbers-grid .number-grid-col:nth-child(2) { border:none;}
+  .numbers-grid .number-grid-col { padding:15px 15px; }
+  .sub-logo { max-width:200px; }
+  .header-content h1 { font-size:4rem;padding:0 15px }
+  .header-home { overflow: hidden;}
+  video { object-fit:contain;object-position: center top;width:200%; }
+  .logo-list > div { display:inline-block; width:50%;padding:0px 15px}
+  .header-home .white-box { border-radius:0px;padding:45px 30px 90px; }
+}
+
+@media(max-width:560px){
+  
+  .numbers-grid .number-grid-col:nth-child(2) { border-bottom:1px solid var(--blue); }
+  .numbers-grid .number-grid-col { border:none;border-bottom:1px solid var(--blue); }
+  .quote-image { margin-bottom:30px; }
+  .quote { font-size:1.6rem;line-height:initial; }
+  .module-quote { padding:60px 15px 45px; }
+  .row .col.col.col { width:50%;--ifm-col-width:100%;text-align:center; }
+  .header-content h1 { font-size:3rem; }
+  .sub-logo { width:auto;height:50px}
+}
