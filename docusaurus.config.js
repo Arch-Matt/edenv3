@@ -71,7 +71,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       footer: {
         style: 'dark',
         logo:{
-          src: 'static/img/eden-logo-white.svg',
+          src: 'img/eden-logo-white.svg',
         },
         links: [
           {

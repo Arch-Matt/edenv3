@@ -21,7 +21,7 @@ function HomepageHeader() {
           <div className="m-container-1400">
             <h1>Multichain Infrastructure for <span className="text-green">Maximal Value</span></h1>
             <div className="logo-list">
-              <div><img src="/static/img/logo-jumpcap.svg" alt=""/></div>
+              <div><img src="img/logo-jumpcap.svg" alt=""/></div>
               <div><img src="static/img/logo-multicoin.svg" alt=""/></div>
               <div><img src="static/img/logo-gsr.svg" alt=""/></div>
               <div><img src="static/img/logo-wintermute.svg" alt=""/></div>
