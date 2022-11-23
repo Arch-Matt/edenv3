@@ -42,7 +42,7 @@ function HomepageHeader() {
             <source src="vid/eden-3.mp4"></source>
           </video>
         <div className="header-content">
-          <div className="m-container-1400">
+          <div className="m-container-1200">
             <h1>Multichain Infrastructure for <span className="text-green">Maximal Value</span></h1>
             <div className="logo-list">
               <div><img src="img/logo-jumpcap.svg" alt=""/></div>
@@ -88,7 +88,7 @@ function HomepageNumbers() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-numbers">
-      <div className="m-container-1400">
+      <div className="m-container-1200">
         <div className="m-grid numbers-grid">
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
             <span className="number-large">9,321</span>
@@ -116,7 +116,7 @@ function HomepageQuote() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-quote">
-      <div className="m-container-1400">
+      <div className="m-container-1200">
         <div className="m-grid">
           <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
             <div className="text-center vertical-align">
@@ -143,7 +143,7 @@ function HomepageCTA() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <div className="module-cta">
-      <div className="m-container-1400 text-center">
+      <div className="m-container-1200 text-center">
         <h2 className="large text-blue">Ready to maximise your projects earnings?</h2>
         <a href="" className="button blue large">Contact us now</a>
       </div>
@@ -162,7 +162,7 @@ export default function Home() {
         
         <HomepageNumbers />
         <div className="module-logosliders">
-        <div className="m-container-1400 text-center">
+        <div className="m-container-1200 text-center">
             <h2>Maximising profits for the best in Web3</h2>
             <SliderLTR />
             <SliderRTL />
