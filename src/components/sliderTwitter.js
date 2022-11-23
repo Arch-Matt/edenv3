@@ -11,13 +11,13 @@ export default class SliderTwitter extends Component {
         speed:300,
         easing:'linear',
         pauseOnHover:true,
-        slidesToShow:5,
+        slidesToShow:4,
         cssEase:'linear',
         responsive: [
           {
             breakpoint: 990,
             settings: {
-              slidesToShow: 4
+              slidesToShow: 3
             }
           },
           {
@@ -40,7 +40,7 @@ export default class SliderTwitter extends Component {
 
 
 <div className="module-logosliders">
-<div className="m-container-1400 text-center">
+<div className="m-container-1200 text-center">
   <h2>Latest news from our world</h2>
   <div className="twitter-slider">
   <Slider {...settings} >
