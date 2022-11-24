@@ -41,6 +41,7 @@ function HomepageHeader() {
         <video muted="muted" autoPlay loop id="mainvid">
             <source src="vid/eden-3.mp4"></source>
           </video>
+          <div className="video-overlay"></div>
         <div className="header-content">
           <div className="m-container-1200">
             <h1>Multichain Infrastructure for <span className="text-green">Maximal Value</span></h1>
