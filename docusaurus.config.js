@@ -129,20 +129,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Twitter',
-                to: '/docs/intro',
+                html:'<a href="" class="footer__link-item footer-social twitter" target="_blank">Twitter</a>'
               },
               {
-                label: 'Discord',
-                to: '/docs/intro',
+                html:'<a href="" class="footer__link-item footer-social discord" target="_blank">Discord</a>'
               },
               {
-                label: 'Medium',
-                to: '/docs/intro',
+                html:'<a href="" class="footer__link-item footer-social medium" target="_blank">Medium</a>'
               },
               {
-                label: 'Telegram',
-                to: '/docs/intro',
+                html:'<a href="" class="footer__link-item footer-social telegram" target="_blank">Telegram</a>'
               },
             ],
           },

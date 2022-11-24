@@ -11,7 +11,7 @@ export default class SliderRTL extends Component {
         speed:10000,
         easing:'linear',
         pauseOnHover:false,
-        slidesToShow:5,
+        slidesToShow:4,
         rtl:true,
         cssEase:'linear',
         responsive: [
@@ -56,9 +56,7 @@ export default class SliderRTL extends Component {
             <div className="slide">
               <img src="img/logo-kraken.svg" alt=""/>
             </div>
-            <div className="slide">
-        
-            </div>
+    
       
         </Slider>
       </div>

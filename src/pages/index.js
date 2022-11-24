@@ -44,12 +44,12 @@ function HomepageHeader() {
         <div className="header-content">
           <div className="m-container-1200">
             <h1>Multichain Infrastructure for <span className="text-green">Maximal Value</span></h1>
-            <div className="logo-list">
+            {/* <div className="logo-list">
               <div><img src="img/logo-jumpcap.svg" alt=""/></div>
               <div><img src="img/logo-multicoin.svg" alt=""/></div>
               <div><img src="img/logo-gsr.svg" alt=""/></div>
               <div><img src="img/logo-wintermute.svg" alt=""/></div>
-            </div>
+            </div> */}
             <div className="white-boxes">
               <div className="m-grid m-grid-gap-30">
                 <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
@@ -91,20 +91,20 @@ function HomepageNumbers() {
       <div className="m-container-1200">
         <div className="m-grid numbers-grid">
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">9,321</span>
-            <span className="number-label">Validators</span>
+            <span className="number-large">xxx,xxx</span>
+            <span className="number-label">Validators Connected</span>
           </div>
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">#1</span>
-            <span className="number-label">Block Profit Rank</span>
+            <span className="number-large">XX%</span>
+            <span className="number-label">Ethereum Validator Penetration</span>
           </div>
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">$1,000</span>
-            <span className="number-label">MEV Extracted</span>
+            <span className="number-large">0.21<span className="number-eth">ETH</span></span>
+            <span className="number-label">Avg Eden Block Reward</span>
           </div>
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">1.55<span className="number-eth">ETH</span></span>
-            <span className="number-label">Average Block Reward</span>
+            <span className="number-large">+XX%</span>
+            <span className="number-label">Eden vs Market Avg Block</span>
           </div>
         </div>
       </div>
