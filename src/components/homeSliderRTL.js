@@ -11,8 +11,9 @@ export default class SliderRTL extends Component {
         speed:10000,
         easing:'linear',
         pauseOnHover:false,
-        slidesToShow:4,
+        slidesToShow:5,
         rtl:true,
+        centerMode:true,
         cssEase:'linear',
         responsive: [
         {

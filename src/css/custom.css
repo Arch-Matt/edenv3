@@ -26,6 +26,8 @@
 html { background:var(--blue); }
 * { font-family: 'Readex Pro', sans-serif;color:#fff; }
 
+.m-container-1000 { max-width:500px;margin:0 auto; }
+
 .text-white { color:#fff; }
 .text-green { color:var(--lightgreen); }
 .text-blue { color:var(--blue)}

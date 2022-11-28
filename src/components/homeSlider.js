@@ -11,7 +11,7 @@ export default class SliderLTR extends Component {
         speed:10000,
         easing:'linear',
         pauseOnHover:false,
-        slidesToShow:4,
+        slidesToShow:6,
         cssEase:'linear',
         centerMode:true,
         centerPadding:'30px',

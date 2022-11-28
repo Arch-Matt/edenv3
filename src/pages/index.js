@@ -10,6 +10,7 @@ import SliderRTL from '../components/homeSliderRTL.js';
 import SliderTwitter from '../components/sliderTwitter.js';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Timeline } from 'react-twitter-widgets'
 
 
 function ScrollTester() {
@@ -57,7 +58,7 @@ function HomepageHeader() {
                   <img className="sub-logo" src="img/eden-logo-blue-rpc.svg" alt=""/>
                   <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
                   <h2>MEV Protection for Traders</h2>
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                  <p>Set up the Eden RPC in MetaMask to enable MEV protection for every transaction you make - it’s completely free to use.</p>
                   <div className="lower-links">
                     <a href="" className="button">Get started</a>
                     <a href="" className="docs"></a>
@@ -67,7 +68,7 @@ function HomepageHeader() {
                   <img className="sub-logo" src="img/eden-logo-blue-relay.svg" alt=""/>
                   <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
                   <h2>MEV Extraction for Web3 Infrastructure</h2>
-                  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                  <p>A suite of OFAC compliant tools designed for validators and builders to maximize their revenue - they are completely free to integrate.</p>
                   <div className="lower-links">
                     <a href="" className="button">Get started</a>
                     <a href="" className="docs"></a>
@@ -92,20 +93,20 @@ function HomepageNumbers() {
       <div className="m-container-1200">
         <div className="m-grid numbers-grid">
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">xxx,xxx</span>
+            <span className="number-large">209,744</span>
             <span className="number-label">Validators Connected</span>
           </div>
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">XX%</span>
+            <span className="number-large">44%</span>
             <span className="number-label">Ethereum Validator Penetration</span>
           </div>
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">0.21<span className="number-eth">ETH</span></span>
+            <span className="number-large">0.2<span className="number-eth">ETH</span></span>
             <span className="number-label">Avg Eden Block Reward</span>
           </div>
           <div className="m-xl-3 m-lg-3 m-md-6 m-sm-6 m-sm-6 m-xs-12 number-grid-col">
-            <span className="number-large">+XX%</span>
-            <span className="number-label">Eden vs Market Avg Block</span>
+            <span className="number-large">266%</span>
+            <span className="number-label">% Above Avg Market Block</span>
           </div>
         </div>
       </div>
@@ -171,7 +172,26 @@ export default function Home() {
         </div>
       
         <HomepageQuote />
-        <SliderTwitter />
+
+        <div className="module-logosliders">
+<div className="m-container-1000 text-center">
+  <h2>Latest news from our world</h2>
+  <Timeline
+  dataSource={{
+    sourceType: 'profile',
+    screenName: 'edennetwork'
+  }}
+  options={{
+    chrome: "noheader, nofooter",
+    height: '800',
+  }}
+/>
+  </div>
+  </div>
+
+        
+
+
         <HomepageCTA />
         <ScrollTester />
       
