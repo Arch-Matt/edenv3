@@ -66,7 +66,7 @@ export default class HomeProducts extends Component {
           <div className="white-box">
             <img className="sub-logo" src="img/eden-logo-blue-bundles.svg" alt=""/>
             <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
-            <h2>MEV Extraction for Web3 Infrastructure</h2>
+            <h2>XXX XXX XXX XXX</h2>
             <p>An endpoint for sophisticated MEV searchers to submit bundles to a network of builders</p>
             <div className="lower-links">
               <a href="" className="button">Get started</a>
