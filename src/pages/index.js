@@ -155,7 +155,7 @@ export default function Home() {
       
         <HomepageQuote />
 
-        <div className="module-logosliders">
+        <div className="module-logosliders" id="twitterfeed">
 <div className="m-container-1000 text-center">
   <h2>Latest news from our world</h2>
   <Timeline

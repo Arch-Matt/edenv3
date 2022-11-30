@@ -182,6 +182,8 @@ a.docs { display:inline-block;width:59px;height:20px;background:url("/static/img
 @media(max-width:768px){
   .row .col.col.col { width:50%;--ifm-col-width:50%;text-align:center; }
   .quote-image { max-width:100px; }
+  #twitterfeed { display:none;}
+  .quote { font-size:1.6rem;line-height:initial; }
 }
 
 
