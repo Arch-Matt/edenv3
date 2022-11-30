@@ -29,9 +29,15 @@ export default class SliderLTR extends Component {
             }
           },
           {
+            breakpoint: 660,
+            settings: {
+            slidesToShow: 2
+            }
+        },
+          {
             breakpoint: 560,
             settings: {
-              slidesToShow: 2
+              slidesToShow: 1
             }
           }
         ]

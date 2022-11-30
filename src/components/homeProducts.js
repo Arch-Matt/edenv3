@@ -15,24 +15,14 @@ export default class HomeProducts extends Component {
         cssEase:'linear',
         responsive: [
           {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 2,
-              dots:true,
-            }
-          },
-          {
-            breakpoint: 768,
+            breakpoint: 988,
             settings: {
               slidesToShow: 1,
               dots:true,
-            }
-          },
-          {
-            breakpoint: 560,
-            settings: {
-              slidesToShow: 1,
-              dots:true,
+              arrows:false,
+              autoplay:true,
+              autoplaySpeed:6000,
+              draggable:true,
             }
           }
         ]
