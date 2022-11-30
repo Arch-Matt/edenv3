@@ -8,9 +8,10 @@ import Slider from "react-slick";
 import SliderLTR from '../components/homeSlider.js';
 import SliderRTL from '../components/homeSliderRTL.js';
 import SliderTwitter from '../components/sliderTwitter.js';
+import HomeProducts from '../components/homeProducts';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Timeline } from 'react-twitter-widgets'
+import { Timeline } from 'react-twitter-widgets';
 
 
 function ScrollTester() {
@@ -27,7 +28,7 @@ function ScrollTester() {
       for (const box of boxes) {
         box.classList.add('bg');
       }
-     }
+     } 
     });
   }, []);
   return(
@@ -52,30 +53,11 @@ function HomepageHeader() {
               <div><img src="img/logo-gsr.svg" alt=""/></div>
               <div><img src="img/logo-wintermute.svg" alt=""/></div>
             </div> */}
-            <div className="white-boxes">
-              <div className="m-grid m-grid-gap-30">
-                <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
-                  <img className="sub-logo" src="img/eden-logo-blue-rpc.svg" alt=""/>
-                  <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
-                  <h2>MEV Protection for Traders</h2>
-                  <p>Set up the Eden RPC in MetaMask to enable MEV protection for every transaction you make - it’s completely free to use.</p>
-                  <div className="lower-links">
-                    <a href="" className="button">Get started</a>
-                    <a href="" className="docs"></a>
-                  </div>
-                </div>
-                <div className="m-xl-6 m-lg-6 m-md-12 m-sm-12 m-xs-12 white-box">
-                  <img className="sub-logo" src="img/eden-logo-blue-relay.svg" alt=""/>
-                  <img className="available-on" src="img/available-on-eth_outlined.svg" alt="" />
-                  <h2>MEV Extraction for Web3 Infrastructure</h2>
-                  <p>A suite of OFAC compliant tools designed for validators and builders to maximize their revenue - they are completely free to integrate.</p>
-                  <div className="lower-links">
-                    <a href="" className="button">Get started</a>
-                    <a href="" className="docs"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            <HomeProducts />
+            
+
+
           </div>
         </div>
     </header>
@@ -183,11 +165,12 @@ export default function Home() {
   }}
   options={{
     chrome: "noheader, nofooter",
-    height: '800',
+    height: '500',
   }}
 />
   </div>
   </div>
+
 
         
 
@@ -199,15 +182,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-
-
-
-// window.onscroll = function(){
-//   var scrollTop = window.pageYOffset;
-//   if(scrollTop >= 1){
-//     $(".navbar").addClass("bg");
-//   }else{
-//     $(".navbar").removeClass("bg");
-//   }
-// }; 

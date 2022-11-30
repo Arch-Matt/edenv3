@@ -129,16 +129,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                html:'<a href="" class="footer__link-item footer-social twitter" target="_blank">Twitter</a>'
+                html:'<a href="https://twitter.com/edennetwork" class="footer__link-item footer-social twitter" target="_blank">Twitter</a>'
               },
               {
-                html:'<a href="" class="footer__link-item footer-social discord" target="_blank">Discord</a>'
+                html:'<a href="https://discord.gg/ZhB9mpWWG3" class="footer__link-item footer-social discord" target="_blank">Discord</a>'
               },
               {
-                html:'<a href="" class="footer__link-item footer-social medium" target="_blank">Medium</a>'
+                html:'<a href="https://medium.com/EdenNetwork" class="footer__link-item footer-social medium" target="_blank">Medium</a>'
               },
               {
-                html:'<a href="" class="footer__link-item footer-social telegram" target="_blank">Telegram</a>'
+                html:'<a href="https://t.me/Eden_Network" class="footer__link-item footer-social telegram" target="_blank">Telegram</a>'
               },
             ],
           },
