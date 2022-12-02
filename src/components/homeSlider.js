@@ -49,22 +49,22 @@ export default class SliderLTR extends Component {
         
           
             <div className="slide">
-              <img src="img/logo-binance.svg" alt=""/>
+              <img src="img/logo-everstake.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-bitcoin_suisse.svg" alt=""/>
+              <img src="img/logo-stakin.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-bitstamp.svg" alt=""/>
+              <img src="img/logo-stakely.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-chorus.svg" alt=""/>
+              <img src="img/logo-hasquark.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-coinbase.svg" alt=""/>
+              <img src="img/logo-lido_blue.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-huobi.svg" alt=""/>
+              <img src="img/logo-rocket.svg" alt=""/>
             </div>
       
         </Slider>

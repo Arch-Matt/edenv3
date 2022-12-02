@@ -149,13 +149,13 @@ export default function Home() {
         <div className="m-container-1200 text-center">
             <h2>Maximising profits for the best in Web3</h2>
             <SliderLTR />
-            <SliderRTL />
+            
         </div>
         </div>
       
         <HomepageQuote />
 
-        <div className="module-logosliders" id="twitterfeed">
+        {/* <div className="module-logosliders" id="twitterfeed">
 <div className="m-container-1000 text-center">
   <h2>Latest news from our world</h2>
   <Timeline
@@ -169,7 +169,7 @@ export default function Home() {
   }}
 />
   </div>
-  </div>
+  </div> */}
 
 
         
