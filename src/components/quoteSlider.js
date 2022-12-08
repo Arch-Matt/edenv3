@@ -6,9 +6,9 @@ export default class QuoteSlider extends Component {
     const settings = {
         dots:true,
         arrows:false,
-        autoplay:false,
-        autoplaySpeed:0,
-        speed:500,
+        autoplay:true,
+        autoplaySpeed:6000,
+        speed:1000,
         easing:'linear',
         pauseOnHover:false,
         slidesToShow:1,
