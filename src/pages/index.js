@@ -8,25 +8,41 @@ import Slider from "react-slick";
 import SliderLTR from '../components/homeSlider.js';
 import SliderRTL from '../components/homeSliderRTL.js';
 import SliderTwitter from '../components/sliderTwitter.js';
+import QuoteSlider from '../components/quoteSlider';
 import HomeProducts from '../components/homeProducts';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Timeline } from 'react-twitter-widgets';
 
 
+
+ 
 function ScrollTester() {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-     if(window.scrollY == 0){
+    if(window.scrollY == 0){
       const boxes = document.getElementsByClassName('navbar');
       for (const box of boxes) {
-        box.classList.remove('bg');
+        box.classList.add('bg');
       }
      }else{
       const boxes = document.getElementsByClassName('navbar');
       for (const box of boxes) {
+        box.classList.remove('bg');
+      }
+     } 
+    
+
+    window.addEventListener("scroll", () => {
+     if(window.scrollY == 0){
+      const boxes = document.getElementsByClassName('navbar');
+      for (const box of boxes) {
         box.classList.add('bg');
+      }
+     }else{
+      const boxes = document.getElementsByClassName('navbar');
+      for (const box of boxes) {
+        box.classList.remove('bg');
       }
      } 
     });
@@ -101,22 +117,7 @@ function HomepageQuote() {
   return (
     <div className="module-quote">
       <div className="m-container-1200">
-        <div className="m-grid">
-          <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
-            <div className="text-center vertical-align">
-              <div className="vertical-outer">
-                <div className="vertical-inner">
-                <img className="quote-image" src="img/near-protocol-near-logo.svg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="m-xl-1 m-lg-1 m-md-1 m-sm-1 m-xs-0"></div>
-          <div className="m-xl-8 m-lg-8 m-md-7 m-sm-8 m-xs-12">
-            <p className="quote">“Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo.”</p>
-            <p className="quote-by">Important Person. Important Company</p>
-          </div>
-        </div>
+        <QuoteSlider />
       </div>
     </div>
   );
@@ -149,7 +150,7 @@ export default function Home() {
         <div className="m-container-1200 text-center">
             <h2>Maximising profits for the best in Web3</h2>
             <SliderLTR />
-            
+            <SliderRTL />
         </div>
         </div>
       

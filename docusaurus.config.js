@@ -51,15 +51,25 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/eden-logo-white.svg',
         },
         items: [
+          // {
+          //   type: 'doc', 
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Docs',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            type: 'doc', 
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+           href:'https://docs.edennetwork.io/',
+           position:'left',
+           label:'Docs'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://google.co.uk',
+            href:'https://medium.com/edennetwork',
+            position:'left',
+            label:'Blog'
+           },
+          {
+            href: 'https://app.edennetwork.io/',
             label: 'Launch App',
             position: 'right',
           },
@@ -78,20 +88,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Products',
             items: [
               {
-                label: 'Eden Relay',
-                to: '/docs/intro',
-              },
-              {
                 label: 'Eden RPC',
-                to: '/docs/intro',
+                href: 'https://docs.edennetwork.io/eden-rpc/overview',
               },
               {
-                label: 'EDEN Token',
-                to: '/docs/intro',
+                label: 'Eden Relay',
+                href: 'https://docs.edennetwork.io/eden-relay/overview',
+              },
+              {
+                label: 'Eden Bundles',
+                href: 'https://docs.edennetwork.io/eden-bundles/overview',
               },
               {
                 label: 'yyAVAX on Yield Yak',
-                to: '/docs/intro',
+                href: 'https://yieldyak.com/liquid-staking',
               },
             ],
           },
@@ -99,12 +109,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Developers',
             items: [
               {
-                label: 'Github',
-                to: '/docs/intro',
+                label: 'Docs',
+                href: 'https://docs.edennetwork.io/',
               },
               {
-                label: 'Docs',
-                to: '/docs/intro',
+                label: 'github',
+                href: 'https://github.com/eden-network/',
               },
             ],
           },
@@ -112,16 +122,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Company',
             items: [
               {
-                label: 'Eden Network',
-                to: '/docs/intro',
-              },
-              {
                 label: 'Linkedin',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Brand Assets',
-                to: '/docs/intro',
+                href: 'https://www.linkedin.com/company/edennetwork/',
               },
             ],
           },
@@ -129,30 +131,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                html:'<a href="https://twitter.com/edennetwork" class="footer__link-item footer-social twitter" target="_blank">Twitter</a>'
+                html:'<a href="https://discord.gg/ZhB9mpWWG3" class="footer__link-item footer-social discord" target="_blank">Discord</a>'
               },
               {
-                html:'<a href="https://discord.gg/ZhB9mpWWG3" class="footer__link-item footer-social discord" target="_blank">Discord</a>'
+                html:'<a href="https://twitter.com/edennetwork" class="footer__link-item footer-social twitter" target="_blank">Twitter</a>'
               },
               {
                 html:'<a href="https://medium.com/EdenNetwork" class="footer__link-item footer-social medium" target="_blank">Medium</a>'
               },
-              {
-                html:'<a href="https://t.me/Eden_Network" class="footer__link-item footer-social telegram" target="_blank">Telegram</a>'
-              },
-            ],
-          },
-          {
-            title: 'Legal',
-            items: [
-              {
-                label: 'Terms',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Privacy',
-                to: '/docs/intro',
-              },
+           
             ],
           },
         ],

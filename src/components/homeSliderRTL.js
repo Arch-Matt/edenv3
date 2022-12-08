@@ -11,7 +11,7 @@ export default class SliderRTL extends Component {
         speed:10000,
         easing:'linear',
         pauseOnHover:false,
-        slidesToShow:5,
+        slidesToShow:4,
         rtl:true,
         centerMode:true,
         cssEase:'linear',
@@ -49,20 +49,18 @@ export default class SliderRTL extends Component {
         
   
             <div className="slide">
-              <img src="img/logo-staked.svg" alt=""/>
+              <img src="img/Attestant.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-rocket.svg" alt=""/>
+              <img src="img/BlockDaemon.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-solana.svg" alt=""/>
+              <img src="img/BlockScape.png" alt=""/>
             </div>
             <div className="slide">
-              <img src="img/logo-s.svg" alt=""/>
+              <img src="img/StakeWise.png" alt=""/>
             </div>
-            <div className="slide">
-              <img src="img/logo-kraken.svg" alt=""/>
-            </div>
+      
     
       
         </Slider>
