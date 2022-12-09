@@ -48,7 +48,7 @@ function ScrollTester() {
     });
   }, []);
   return(
-    <div class="scrollchecker">scroll checker</div>
+    <div className="scrollchecker">scroll checker</div>
   );
 }
 
@@ -125,16 +125,56 @@ function HomepageQuote() {
 
 
 function HomepageCTA() {
-  const {siteConfig} = useDocusaurusContext();
+  const handleClick = event => {
+    event.preventDefault();
+
+    const boxes = document.getElementsByClassName('popupbox');
+    for (const box of boxes) {
+      box.classList.add('visible');
+    }
+
+
+  };
+
   return (
     <div className="module-cta">
       <div className="m-container-1200 text-center">
         <h2 className="large text-blue">Ready to maximise your projects earnings?</h2>
-        <a href="" className="button blue large">Contact us now</a>
-      </div>
-    </div>
+        <a href="#" onClick={handleClick} className="button blue large">Contact us now</a>
+       
+      </div> 
+    </div> 
   );
 }
+
+
+function PopUpBoxHolder() {
+  const handleClickClose = event => {
+    event.preventDefault();
+
+    const boxes = document.getElementsByClassName('popupbox');
+    for (const box of boxes) {
+      box.classList.remove('visible');
+    }
+
+
+  };
+  return(
+    <div className="popupbox">
+    <div className="popupBoxholder">
+      <div className="vertical-align">
+        <div className="vertical-outer">
+          <div className="vertical-inner">
+            <a href="#" onClick={handleClickClose} className="close">X</a>
+            <iframe src="https://webforms.pipedrive.com/f/6ivlo0ZrN02EMZtJEC64tZk1vzTc5FzIYCqEe7Ou6iJhFLo9WkLM3TI03al5fxOvaH" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  );
+};
+
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -180,6 +220,7 @@ export default function Home() {
         <ScrollTester />
       
       </main>
+      <PopUpBoxHolder />
     </Layout>
   );
 }

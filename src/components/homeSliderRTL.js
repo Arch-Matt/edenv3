@@ -19,13 +19,13 @@ export default class SliderRTL extends Component {
         {
             breakpoint: 990,
             settings: {
-            slidesToShow: 4
+            slidesToShow: 3
             }
         },
         {
             breakpoint: 768,
             settings: {
-            slidesToShow: 3
+            slidesToShow: 2
             }
         },
         {
