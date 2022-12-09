@@ -161,10 +161,11 @@ function PopUpBoxHolder() {
   };
   return(
     <div className="popupbox">
-    <div className="popupBoxholder">
+
       <div className="vertical-align">
         <div className="vertical-outer">
           <div className="vertical-inner">
+          <div className="popupBoxholder">
             <a href="#" onClick={handleClickClose} className="close">X</a>
             <iframe src="https://webforms.pipedrive.com/f/6ivlo0ZrN02EMZtJEC64tZk1vzTc5FzIYCqEe7Ou6iJhFLo9WkLM3TI03al5fxOvaH"></iframe>
           </div>
