@@ -88,7 +88,11 @@ a.button.blue { background:var(--blue);color:#fff; }
 a.button.blue:hover { background:#fff;color:var(--blue); }
 a.button.large { font-size:1.4rem; }
 
-a.docs { display:inline-block;width:59px;height:20px;background:url("/static/img/docs_outlined.svg") no-repeat;background-size:contain;position:absolute;bottom:40px;right:30px; }
+a.docs { display:inline-block;width:64px;position:absolute;bottom:40px;right:30px;color:var(--blue);transition:color 0.3s ease-in-out; }
+a.docs svg { display:inline-block;margin-right:-5px;position:relative;top:2px; }
+a.docs svg path { transition:fill 0.3s ease-in-out;fill:var(--blue); }
+a.docs:hover { color:var(--darkgreen);text-decoration: none; }
+a.docs:hover svg path { fill:var(--darkgreen); }
 
 .lower-links { position:absolute; bottom:0;left:0;width:100%;padding:30px 30px 30px 30px; }
 
@@ -136,6 +140,7 @@ a.docs { display:inline-block;width:59px;height:20px;background:url("/static/img
 .slick-slide img.quote-image { width:100%;max-width:130px;display:inline-block; }
 .quoteSliderHolder .slick-dots li.slick-active button:before,
 .quoteSliderHolder .slick-dots li:focus button:before { color:#fff;opacity:1; }
+.quoteLinkSlide:hover { text-decoration: none;;}
 
 /* CTA */
 .module-cta { padding:45px 15px;background:var(--lightgreen);background:radial-gradient(circle, var(--lightgreen) 50%, var(--darkgreen) 100%); }

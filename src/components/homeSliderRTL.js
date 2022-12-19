@@ -11,7 +11,7 @@ export default class SliderRTL extends Component {
         speed:10000,
         easing:'linear',
         pauseOnHover:false,
-        slidesToShow:4,
+        slidesToShow:5,
         rtl:true,
         centerMode:true,
         cssEase:'linear',
@@ -49,16 +49,19 @@ export default class SliderRTL extends Component {
         
   
             <div className="slide">
-              <img src="img/Attestant.png" alt=""/>
+              <a href="https://www.attestant.io/" target="_blank"><img src="img/Attestant.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/BlockDaemon.png" alt=""/>
+              <a href="https://blockdaemon.com/" target="_blank"><img src="img/BlockDaemon.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/BlockScape.png" alt=""/>
+              <a href="https://blockscape.network/" target="_blank"><img src="img/BlockScape.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/StakeWise.png" alt=""/>
+              <a href="https://stakewise.io/" target="_blank"><img src="img/StakeWise.png" alt=""/></a>
+            </div>
+            <div className="slide">
+              <a href="https://chorus.one/" target="_blank"><img src="img/logo-chorus.svg" alt=""/></a>
             </div>
       
     

@@ -49,22 +49,22 @@ export default class SliderLTR extends Component {
         
           
             <div className="slide">
-              <img src="img/logo-everstake.png" alt=""/>
+              <a href="https://everstake.one/" target="_blank"><img src="img/logo-everstake.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/logo-stakin.png" alt=""/>
+              <a href="https://stakin.com/" target="_blank"><img src="img/logo-stakin.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/logo-stakely.png" alt=""/>
+              <a href="https://stakely.io/" target="_blank"><img src="img/logo-stakely.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/logo-hasquark.png" alt=""/>
+              <a href="https://www.hashquark.io/" target="_blank"><img src="img/logo-hasquark.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/logo-lido_blue.png" alt=""/>
+              <a href="https://lido.fi/" target="_blank"><img src="img/logo-lido_blue.png" alt=""/></a>
             </div>
             <div className="slide">
-              <img src="img/logo-rocket.svg" alt=""/>
+              <a href="https://rocketpool.net/" target="_blank"><img src="img/logo-rocket.svg" alt=""/></a>
             </div>
       
         </Slider>

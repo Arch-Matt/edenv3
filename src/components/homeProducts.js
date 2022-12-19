@@ -48,7 +48,11 @@ export default class HomeProducts extends Component {
             <p>A suite of OFAC compliant tooling for Ethereum validators and builders to maximize their revenue.</p>
             <div className="lower-links">
               <a href="https://relay.edennetwork.io/info" className="button">Get started</a>
-              <a href="https://docs.edennetwork.io/eden-relay/overview" className="docs"></a>
+              <a href="https://docs.edennetwork.io/eden-relay/overview" className="docs"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" viewBox="0 0 25 16">
+  <g id="Group_8" data-name="Group 8" transform="translate(0 -3)">
+    <path id="Path_1" data-name="Path 1" d="M9.5,24A1.538,1.538,0,0,1,8,22.5V18.925H9.5V22.5h13V18.925H24V22.5A1.538,1.538,0,0,1,22.5,24ZM16,20.175,11.175,15.35l1.075-1.075,3,3V8h1.5v9.275l3-3,1.075,1.075Z" transform="translate(-8 -5)" fill="#171c47"/>
+  </g>
+</svg> Docs</a>
             </div>
           </div>
           <div className="white-box">

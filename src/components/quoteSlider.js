@@ -21,6 +21,7 @@ export default class QuoteSlider extends Component {
         
           
             <div className="quoteSlide">
+                <a href="https://twitter.com/ChorusOne/status/1573373746236510208" target="_blank" className="quoteLinkSlide">
                 <div className="m-grid">
                     <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
                         <div className="text-center vertical-align">
@@ -37,9 +38,11 @@ export default class QuoteSlider extends Component {
                         <a href="https://www.chorus.one/" target="_blank" className="quote-by">Chorus One</a>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div className="quoteSlide">
+            <a href="https://twitter.com/everstake_pool/status/1593244423638245376?s=20&t=4wrlkNfjR_Xk-fr5E1tf5g" target="_blank" className="quoteLinkSlide">
                 <div className="m-grid">
                     <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
                         <div className="text-center vertical-align">
@@ -56,9 +59,11 @@ export default class QuoteSlider extends Component {
                         <a href="https://everstake.one/" target="_blank" className="quote-by">Everstake</a>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div className="quoteSlide">
+            <a href="https://twitter.com/StakingFac/status/1594933734859759616" target="_blank" className="quoteLinkSlide">
                 <div className="m-grid">
                     <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
                         <div className="text-center vertical-align">
@@ -75,10 +80,12 @@ export default class QuoteSlider extends Component {
                         <a href="https://stakingfacilities.com/" target="_blank" className="quote-by">Staking Facilities</a>
                     </div>
                 </div>
+                </a>
             </div>
 
 
             <div className="quoteSlide">
+            <a href="https://twitter.com/yieldyak_/status/1588265247504478208" target="_blank" className="quoteLinkSlide">
                 <div className="m-grid">
                     <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
                         <div className="text-center vertical-align">
@@ -95,10 +102,12 @@ export default class QuoteSlider extends Component {
                         <a href="https://yieldyak.com/" target="_blank" className="quote-by">Yield Yak</a>
                     </div>
                 </div>
+                </a>
             </div>
 
 
             <div className="quoteSlide">
+            <a href="https://twitter.com/ratedw3b/status/1594761176205901849?s=20&t=rVyjgWqoBwfI7_C9ONKJuw" target="_blank" className="quoteLinkSlide">
                 <div className="m-grid">
                     <div className="m-xl-3 m-lg-3 m-md-4 m-sm-3 m-xs-12">
                         <div className="text-center vertical-align">
@@ -115,6 +124,7 @@ export default class QuoteSlider extends Component {
                         <a href="https://www.rated.network/" target="_blank" className="quote-by">Rated Network</a>
                     </div>
                 </div>
+                </a>
             </div>
       
         </Slider>
