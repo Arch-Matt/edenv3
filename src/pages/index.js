@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import Slider from "react-slick";
 import SliderLTR from '../components/homeSlider.js';
+import SliderLTR2 from '../components/homeSlider2.js';
 import SliderRTL from '../components/homeSliderRTL.js';
 import SliderTwitter from '../components/sliderTwitter.js';
 import QuoteSlider from '../components/quoteSlider';
@@ -192,6 +193,7 @@ export default function Home() {
             <h2>Maximising profits for the best in Web3</h2>
             <SliderLTR />
             <SliderRTL />
+            <SliderLTR2 />
         </div>
         </div>
       
