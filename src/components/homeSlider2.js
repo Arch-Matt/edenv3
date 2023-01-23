@@ -52,13 +52,13 @@ export default class SliderLTR2 extends Component {
               <a href="https://stakingfacilities.com/" target="_blank"><img src="img/logo-stakingfacilities.svg" alt=""/></a>
             </div>
             <div className="slide">
-              <a href="https://www.allnodes.com/" target="_blank"><img src="img/logo-allnodes.svg" alt=""/></a>
+              <a href="https://www.allnodes.com/" target="_blank"><img src="img/logo-allnodes-2.png" alt=""/></a>
             </div>
             <div className="slide">
-              <a href="https://www.senseinode.com/" target="_blank"><img src="img/logo-senseinode.svg" alt=""/></a>
+              <a href="https://www.senseinode.com/" target="_blank"><img src="img/logo-senseinode-2.svg" alt=""/></a>
             </div>
             <div className="slide">
-              <a href="https://www.chainlayer.io/" target="_blank"><img src="img/logo-chainlayer.png" alt=""/></a>
+              <a href="https://www.chainlayer.io/" target="_blank"><img src="img/logo-chainlayer-2.png" alt=""/></a>
             </div>
       
         </Slider>
