@@ -44,7 +44,7 @@ export default class SliderLTR2 extends Component {
     };
     return (
       
-      <div className="sliderholder">
+      <div className="sliderholder bottom-tier">
         <Slider {...settings}>
         
           
